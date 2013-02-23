@@ -10,6 +10,6 @@ Jquery UI               (Lazy loading)<br/>
 Bootstrap widgets       (Lazy loading)<br/>
 Jquery Bbq              (Deprecated)<br/>
 
-Future Plans
-Independant of jquery Bbq.
+Future Plans<br/>
+Independant of jquery Bbq.<br/>
 Lighter start.
