@@ -1,0 +1,36 @@
+2013/01/31 06:20:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\wamp\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/lib/boot...')
+#1 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blueprint/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost:8050/blueprint/
+---
+2013/01/31 06:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\wamp\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/lib/boot...')
+#1 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blueprint/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost:8050/blueprint/site/contact
+---
+2013/01/31 08:02:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\wamp\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/lib/boot...')
+#1 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blueprint/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost:8050/blueprint/
+---
+2013/01/31 08:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\wamp\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/lib/boot...')
+#1 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blueprint/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost:8050/blueprint/site/index
+---

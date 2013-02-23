@@ -1,0 +1,19 @@
+#page {
+    padding-top: 60px;
+}
+#loading {
+	position:fixed;
+	padding:3px 5px;
+	background:#C0C0C0;
+	color:#fff;
+	border-radius:4px;
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:9999;
+	overflow:visible;
+	top:0;
+}
+#loading.activity {
+	display:inline-block;
+}
