@@ -34,3 +34,302 @@ Stack trace:
 REQUEST_URI=/blueprint/assets/lib/bootstrap/less/mixins.less
 HTTP_REFERER=http://localhost:8050/blueprint/site/index
 ---
+2013/03/27 10:39:38 [error] [exception.CException] exception 'CException' with message 'Property "ExtMinScript.optionName" is not defined.' in C:\wamp\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\yii\framework\YiiBase.php(222): CComponent->__set('optionName', 'optionValue')
+#1 C:\wamp\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\wamp\yii\framework\web\CWebApplication.php(231): CModule->getComponent('clientScript')
+#3 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(163): CWebApplication->getClientScript()
+#4 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(124): Bootstrap->registerAssetCss('bootstrap.css')
+#5 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(102): Bootstrap->registerCoreCss()
+#6 C:\wamp\yii\framework\base\CModule.php(388): Bootstrap->init()
+#7 C:\wamp\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#8 C:\wamp\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#9 C:\wamp\yii\framework\YiiBase.php(127): CApplication->__construct('C:\wamp\yii\blu...')
+#10 C:\wamp\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\wamp\yii\blu...')
+#11 C:\wamp\yii\blueprint\index.php(13): YiiBase::createWebApplication('C:\wamp\yii\blu...')
+#12 {main}
+REQUEST_URI=/blueprint/
+---
+2013/03/27 10:41:04 [error] [exception.CException] exception 'CException' with message 'Property "ExtMinScript.optionName" is not defined.' in C:\wamp\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\yii\framework\YiiBase.php(222): CComponent->__set('optionName', 'optionValue')
+#1 C:\wamp\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\wamp\yii\framework\web\CWebApplication.php(231): CModule->getComponent('clientScript')
+#3 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(163): CWebApplication->getClientScript()
+#4 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(124): Bootstrap->registerAssetCss('bootstrap.css')
+#5 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(102): Bootstrap->registerCoreCss()
+#6 C:\wamp\yii\framework\base\CModule.php(388): Bootstrap->init()
+#7 C:\wamp\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#8 C:\wamp\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#9 C:\wamp\yii\framework\YiiBase.php(127): CApplication->__construct('C:\wamp\yii\blu...')
+#10 C:\wamp\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\wamp\yii\blu...')
+#11 C:\wamp\yii\blueprint\index.php(13): YiiBase::createWebApplication('C:\wamp\yii\blu...')
+#12 {main}
+REQUEST_URI=/blueprint/
+---
+2013/03/27 10:41:06 [error] [exception.CException] exception 'CException' with message 'Property "ExtMinScript.optionName" is not defined.' in C:\wamp\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\yii\framework\YiiBase.php(222): CComponent->__set('optionName', 'optionValue')
+#1 C:\wamp\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\wamp\yii\framework\web\CWebApplication.php(231): CModule->getComponent('clientScript')
+#3 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(163): CWebApplication->getClientScript()
+#4 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(124): Bootstrap->registerAssetCss('bootstrap.css')
+#5 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(102): Bootstrap->registerCoreCss()
+#6 C:\wamp\yii\framework\base\CModule.php(388): Bootstrap->init()
+#7 C:\wamp\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#8 C:\wamp\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#9 C:\wamp\yii\framework\YiiBase.php(127): CApplication->__construct('C:\wamp\yii\blu...')
+#10 C:\wamp\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\wamp\yii\blu...')
+#11 C:\wamp\yii\blueprint\index.php(13): YiiBase::createWebApplication('C:\wamp\yii\blu...')
+#12 {main}
+REQUEST_URI=/blueprint/
+---
+2013/03/27 10:55:08 [error] [exception.CException] exception 'CException' with message 'Property "ExtMinScript.optionName" is not defined.' in C:\wamp\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\yii\framework\YiiBase.php(222): CComponent->__set('optionName', 'optionValue')
+#1 C:\wamp\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\wamp\yii\framework\web\CWebApplication.php(231): CModule->getComponent('clientScript')
+#3 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(163): CWebApplication->getClientScript()
+#4 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(124): Bootstrap->registerAssetCss('bootstrap.css')
+#5 C:\wamp\yii\blueprint\protected\extensions\bootstrap\components\Bootstrap.php(102): Bootstrap->registerCoreCss()
+#6 C:\wamp\yii\framework\base\CModule.php(388): Bootstrap->init()
+#7 C:\wamp\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#8 C:\wamp\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#9 C:\wamp\yii\framework\YiiBase.php(127): CApplication->__construct('C:\wamp\yii\blu...')
+#10 C:\wamp\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\wamp\yii\blu...')
+#11 C:\wamp\yii\blueprint\index.php(13): YiiBase::createWebApplication('C:\wamp\yii\blu...')
+#12 {main}
+REQUEST_URI=/blueprint/index.php
+---
+2013/03/27 11:04:07 [error] [ext.minScript.components.ExtMinScript] Can't access /blueprint/css/styles.css
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (130)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (216)
+in C:\wamp\yii\blueprint\protected\views\layouts\main.php (7)
+2013/03/27 11:04:07 [error] [ext.minScript.controllers.ExtMinScriptController] The minScript group "67b71fe3f2fbc78a622b5053b7e45a85" could not be served because some files are inaccessible.
+in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\groupsConfig.php (20)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\index.php (61)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php (39)
+2013/03/27 11:04:07 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Internal Server Error' in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\groupsConfig.php:21
+Stack trace:
+#0 C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\index.php(61): require()
+#1 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(39): require('C:\wamp\yii\blu...')
+#2 C:\wamp\yii\framework\web\actions\CInlineAction.php(50): ExtMinScriptController->actionServe()
+#3 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(82): CFilterChain->run()
+#6 C:\wamp\yii\framework\web\filters\CInlineFilter.php(59): ExtMinScriptController->filterPrepareServe(Object(CFilterChain))
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\yii\framework\web\CWebApplication.php(283): CController->run('serve')
+#11 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('min/serve')
+#12 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blueprint/min/serve?g=67b71fe3f2fbc78a622b5053b7e45a85
+HTTP_REFERER=http://localhost:8050/blueprint/site/index
+---
+2013/03/27 11:04:07 [error] [ext.minScript.components.ExtMinScript] Can't access /blueprint/css/styles.css
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (130)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (216)
+in C:\wamp\yii\blueprint\protected\views\layouts\main.php (7)
+2013/03/27 11:04:10 [error] [ext.minScript.components.ExtMinScript] Can't access /blueprint/css/styles.css
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (130)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (216)
+in C:\wamp\yii\blueprint\protected\views\layouts\main.php (7)
+2013/03/27 11:04:30 [error] [ext.minScript.components.ExtMinScript] Can't access /css/styles.css
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (130)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (216)
+in C:\wamp\yii\blueprint\protected\views\layouts\main.php (7)
+2013/03/27 11:04:30 [error] [ext.minScript.controllers.ExtMinScriptController] The minScript group "309a45b4f04c91db949e20979d3dd82d" could not be served because some files are inaccessible.
+in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\groupsConfig.php (20)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\index.php (61)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php (39)
+2013/03/27 11:04:30 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Internal Server Error' in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\groupsConfig.php:21
+Stack trace:
+#0 C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\index.php(61): require()
+#1 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(39): require('C:\wamp\yii\blu...')
+#2 C:\wamp\yii\framework\web\actions\CInlineAction.php(50): ExtMinScriptController->actionServe()
+#3 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(82): CFilterChain->run()
+#6 C:\wamp\yii\framework\web\filters\CInlineFilter.php(59): ExtMinScriptController->filterPrepareServe(Object(CFilterChain))
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\yii\framework\web\CWebApplication.php(283): CController->run('serve')
+#11 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('min/serve')
+#12 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blueprint/min/serve?g=309a45b4f04c91db949e20979d3dd82d
+HTTP_REFERER=http://localhost:8050/blueprint/site/index
+---
+2013/03/27 11:04:30 [error] [ext.minScript.components.ExtMinScript] Can't access /css/styles.css
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (130)
+in C:\wamp\yii\blueprint\protected\extensions\minScript\components\ExtMinScript.php (216)
+in C:\wamp\yii\blueprint\protected\views\layouts\main.php (7)
+2013/03/27 11:38:49 [error] [php] Undefined variable: script_blocks (C:\wamp\yii\blueprint\protected\filters\html\ETrimWhitespaceBehavior.php:90)
+Stack trace:
+#0 C:\wamp\yii\blueprint\protected\filters\html\ECompressHtmlFilter.php(83): ECompressHtmlFilter->__call()
+#1 C:\wamp\yii\blueprint\protected\filters\html\ECompressHtmlFilter.php(83): ECompressHtmlFilter->compressHtml()
+#2 C:\wamp\yii\framework\web\filters\CFilter.php(42): ECompressHtmlFilter->postFilter()
+#3 C:\wamp\yii\framework\web\filters\CFilterChain.php(131): ECompressHtmlFilter->filter()
+#4 C:\wamp\yii\framework\web\CController.php(292): CFilterChain->run()
+#5 C:\wamp\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 C:\wamp\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#7 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\yii\blueprint\index.php(13): CWebApplication->run()
+REQUEST_URI=/blueprint/site/index
+2013/03/27 11:38:49 [error] [ext.minScript.components.ExtMinScript] Can't access C:/wamp/yii/blueprint/min/serve?g=8a220e3d339d4baf7fbae21b073a55e2&lm=1364383837
+2013/03/27 11:38:49 [error] [ext.minScript.components.ExtMinScript] Can't access C:/wamp/yii/blueprint/min/serve?g=57df9b207481cce9d32a6b7a1597fb62&lm=1364383835
+2013/03/27 11:38:54 [error] [php] Undefined variable: script_blocks (C:\wamp\yii\blueprint\protected\filters\html\ETrimWhitespaceBehavior.php:90)
+Stack trace:
+#0 C:\wamp\yii\blueprint\protected\filters\html\ECompressHtmlFilter.php(83): ECompressHtmlFilter->__call()
+#1 C:\wamp\yii\blueprint\protected\filters\html\ECompressHtmlFilter.php(83): ECompressHtmlFilter->compressHtml()
+#2 C:\wamp\yii\framework\web\filters\CFilter.php(42): ECompressHtmlFilter->postFilter()
+#3 C:\wamp\yii\framework\web\filters\CFilterChain.php(131): ECompressHtmlFilter->filter()
+#4 C:\wamp\yii\framework\web\CController.php(292): CFilterChain->run()
+#5 C:\wamp\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 C:\wamp\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#7 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\yii\blueprint\index.php(13): CWebApplication->run()
+REQUEST_URI=/blueprint/site/index
+2013/03/27 11:38:55 [error] [ext.minScript.components.ExtMinScript] Can't access C:/wamp/yii/blueprint/min/serve?g=8a220e3d339d4baf7fbae21b073a55e2&lm=1364383837
+2013/03/27 11:38:55 [error] [ext.minScript.components.ExtMinScript] Can't access C:/wamp/yii/blueprint/min/serve?g=57df9b207481cce9d32a6b7a1597fb62&lm=1364383835
+2013/03/27 11:38:55 [error] [ext.minScript.controllers.ExtMinScriptController] The minScript group "2947153d269add9b5894268a5e5c95e8" could not be served because some files are inaccessible.
+2013/03/27 11:38:55 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Internal Server Error' in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\groupsConfig.php:21
+Stack trace:
+#0 C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\index.php(61): require()
+#1 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(39): require('C:\wamp\yii\blu...')
+#2 C:\wamp\yii\framework\web\actions\CInlineAction.php(50): ExtMinScriptController->actionServe()
+#3 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(82): CFilterChain->run()
+#6 C:\wamp\yii\framework\web\filters\CInlineFilter.php(59): ExtMinScriptController->filterPrepareServe(Object(CFilterChain))
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\yii\framework\web\CWebApplication.php(283): CController->run('serve')
+#11 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('min/serve')
+#12 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blueprint/min/serve?g=2947153d269add9b5894268a5e5c95e8
+HTTP_REFERER=http://localhost:8050/blueprint/site/index
+---
+2013/03/27 11:38:55 [error] [ext.minScript.controllers.ExtMinScriptController] The minScript group "a9e12ffd9d871ed6837fc78cb2b11c1a" could not be served because some files are inaccessible.
+2013/03/27 11:38:55 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Internal Server Error' in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\groupsConfig.php:21
+Stack trace:
+#0 C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\index.php(61): require()
+#1 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(39): require('C:\wamp\yii\blu...')
+#2 C:\wamp\yii\framework\web\actions\CInlineAction.php(50): ExtMinScriptController->actionServe()
+#3 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(82): CFilterChain->run()
+#6 C:\wamp\yii\framework\web\filters\CInlineFilter.php(59): ExtMinScriptController->filterPrepareServe(Object(CFilterChain))
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\yii\framework\web\CWebApplication.php(283): CController->run('serve')
+#11 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('min/serve')
+#12 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blueprint/min/serve?g=a9e12ffd9d871ed6837fc78cb2b11c1a
+HTTP_REFERER=http://localhost:8050/blueprint/site/index
+---
+2013/03/27 11:39:38 [error] [php] Missing argument 3 for ETrimWhitespaceBehavior::replace(), called in C:\wamp\yii\blueprint\protected\filters\html\ETrimWhitespaceBehavior.php on line 92 and defined (C:\wamp\yii\blueprint\protected\filters\html\ETrimWhitespaceBehavior.php:128)
+Stack trace:
+#0 C:\wamp\yii\framework\base\CComponent.php(261): call_user_func_array()
+#1 C:\wamp\yii\blueprint\protected\filters\html\ECompressHtmlFilter.php(83): ECompressHtmlFilter->__call()
+#2 C:\wamp\yii\blueprint\protected\filters\html\ECompressHtmlFilter.php(83): ECompressHtmlFilter->compressHtml()
+#3 C:\wamp\yii\framework\web\filters\CFilter.php(42): ECompressHtmlFilter->postFilter()
+#4 C:\wamp\yii\framework\web\filters\CFilterChain.php(131): ECompressHtmlFilter->filter()
+#5 C:\wamp\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\yii\blueprint\index.php(13): CWebApplication->run()
+REQUEST_URI=/blueprint/site/index
+2013/03/27 11:39:38 [error] [ext.minScript.components.ExtMinScript] Can't access C:/wamp/yii/blueprint/min/serve?g=8a220e3d339d4baf7fbae21b073a55e2&lm=1364383837
+2013/03/27 11:39:38 [error] [ext.minScript.components.ExtMinScript] Can't access C:/wamp/yii/blueprint/min/serve?g=57df9b207481cce9d32a6b7a1597fb62&lm=1364383835
+2013/03/27 11:39:38 [error] [ext.minScript.controllers.ExtMinScriptController] The minScript group "2947153d269add9b5894268a5e5c95e8" could not be served because some files are inaccessible.
+2013/03/27 11:39:38 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Internal Server Error' in C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\groupsConfig.php:21
+Stack trace:
+#0 C:\wamp\yii\blueprint\protected\extensions\minScript\vendors\minify\min\index.php(61): require()
+#1 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(39): require('C:\wamp\yii\blu...')
+#2 C:\wamp\yii\framework\web\actions\CInlineAction.php(50): ExtMinScriptController->actionServe()
+#3 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\yii\blueprint\protected\extensions\minScript\controllers\ExtMinScriptController.php(82): CFilterChain->run()
+#6 C:\wamp\yii\framework\web\filters\CInlineFilter.php(59): ExtMinScriptController->filterPrepareServe(Object(CFilterChain))
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\yii\framework\web\CWebApplication.php(283): CController->run('serve')
+#11 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('min/serve')
+#12 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\yii\blueprint\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blueprint/min/serve?g=2947153d269add9b5894268a5e5c95e8
+HTTP_REFERER=http://localhost:8050/blueprint/site/index
+---
+2013/03/27 12:04:21 [error] [php] Undefined variable: compactor (C:\wamp\yii\blueprint\protected\components\Controller.php:54)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\yii\blueprint\index.php(13): CWebApplication->run()
+REQUEST_URI=/blueprint/site/index
+in C:\wamp\yii\blueprint\protected\components\Controller.php (54)
+in C:\wamp\yii\blueprint\protected\controllers\SiteController.php (33)
+in C:\wamp\yii\blueprint\index.php (13)
+2013/03/27 12:05:02 [error] [php] Undefined variable: options (C:\wamp\yii\blueprint\protected\components\Controller.php:54)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\yii\blueprint\index.php(13): CWebApplication->run()
+REQUEST_URI=/blueprint/site/index
+in C:\wamp\yii\blueprint\protected\components\Controller.php (54)
+in C:\wamp\yii\blueprint\protected\controllers\SiteController.php (33)
+in C:\wamp\yii\blueprint\index.php (13)
+2013/03/27 12:06:08 [error] [php] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array (C:\wamp\yii\blueprint\protected\extensions\contentCompactor\ContentCompactor.php:20)
+Stack trace:
+#0 C:\wamp\yii\blueprint\protected\controllers\SiteController.php(33): SiteController->render()
+#1 C:\wamp\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\wamp\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\wamp\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\yii\blueprint\index.php(13): CWebApplication->run()
+REQUEST_URI=/blueprint/site/index
+in C:\wamp\yii\blueprint\protected\extensions\contentCompactor\ContentCompactor.php (20)
+in C:\wamp\yii\blueprint\protected\components\Controller.php (69)
+in C:\wamp\yii\blueprint\protected\controllers\SiteController.php (33)
+2013/03/27 12:07:32 [error] [php] Use of undefined constant y - assumed 'y' (C:\wamp\yii\blueprint\protected\components\Controller.php:37)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\yii\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\wamp\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\wamp\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\yii\blueprint\index.php(13): CWebApplication->run()
+REQUEST_URI=/blueprint/site/
+in C:\wamp\yii\blueprint\protected\components\Controller.php (37)
+in C:\wamp\yii\blueprint\protected\controllers\SiteController.php (33)
+in C:\wamp\yii\blueprint\index.php (13)

@@ -31,6 +31,13 @@ class Controller extends CController
 	}
  
 	public function render($file, $params = array(), $data=array()) {
+	
+		$compactor = Yii::app()->contentCompactor;
+		$options = array(
+			);
+		
+		if($compactor == null)
+			throw new CHttpException(500, Yii::t('messages', 'Missing component ContentCompactor in configuration.'));
  
 		if(Yii::app()->request->isAjaxRequest){
  
@@ -38,9 +45,8 @@ class Controller extends CController
 				$flashdata = Yii::app()->user->getFlash('updatedata');		
 				$data = $data + $flashdata;	
 			}
- 
- 
-			$data['#content'] = parent::renderPartial($file, $params, true);
+
+			$data['#content'] = $compactor->compact(parent::renderPartial($file, $params, true), $options);
 			$data['title'] = CHtml::encode($this->pageTitle);
  
 			header('Content-type: text/x-json');
@@ -48,7 +54,7 @@ class Controller extends CController
 			Yii::app()->end();
  
 		} else {			
-			echo parent::render($file, $params, true);	
+			echo $compactor->compact(parent::render($file, $params, true), $options);
 		}	
  
 	}
