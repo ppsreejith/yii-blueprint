@@ -10,7 +10,6 @@
 	<?php 
 		$cs = Yii::app()->getClientScript();
   		$cs->registerCoreScript('jquery');
-  		$cs->registerCoreScript('bbq');
 		$cs->registerCssFile(Yii::app()->baseUrl.'/css/styles.css');
 	?>
  
@@ -49,7 +48,7 @@ $script=<<<HTML
 		    if(href=="#")
 		    	return false;	
  
-		    $.bbq.pushState({ url: href});  
+			location.hash=href;
 		    return false;
 		  });
  
@@ -71,7 +70,7 @@ $script=<<<HTML
 		  		else 
 		  			url = action + "&"	+ jQuery(this).serialize();
  
-		  		$.bbq.pushState({ url: url});
+		  		location.hash=url;
  
 		  	} else {
 		  		jQuery.ajax({
@@ -88,11 +87,11 @@ $script=<<<HTML
  
 			$(window).bind( "popstate", function(event) {
  				if(event.originalEvent.state !== null){
- 				$.bbq.pushState({url:event.originalEvent.state.url});
+ 				location.hash=event.originalEvent.state.url;
 				}
  				});
-		   $(window).bind( "hashchange", function(e) {	    
-    		var url = $.bbq.getState( "url" );    		
+		   $(window).bind( "hashchange", function(e){
+    		var url = location.hash.substring(1);
  
     		if(!url || url.indexOf("/")==-1)
     			return;
