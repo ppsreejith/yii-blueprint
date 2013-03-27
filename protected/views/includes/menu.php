@@ -1,4 +1,5 @@
 <?php $this->widget('bootstrap.widgets.TbNavbar',array(
+	'collapse'=>true,
     'items'=>array(
         array(
             'class'=>'bootstrap.widgets.TbMenu',
