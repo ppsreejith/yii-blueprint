@@ -51,9 +51,12 @@ function applychanges(obj) {
 		  		location.hash=url;
  
 		  	} else {
+				var formData = new FormData(this);
 		  		jQuery.ajax({
 					type:"post",
-					data:$(this).serialize(),
+					data:formData,
+					processData: false,
+					contentType: false,
 					url:jQuery(this).attr("action"),
 					success:applychanges,
 					});
