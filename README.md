@@ -9,6 +9,3 @@ Jquery<br/>
 Twitter Bootstrap<br/>
 Jquery UI               (Lazy loading)<br/>
 Bootstrap widgets       (Lazy loading)<br/>
-
-Future Plans:<br/>
-Lighter start.
